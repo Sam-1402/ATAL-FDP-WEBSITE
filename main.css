@@ -1,0 +1,233 @@
+
+#header{
+	width : 920px;
+	height : 200px;
+	margin : 0px auto;
+	padding : 0px;
+	background : url('images/header.jpg') no-repeat;
+	position : relative;
+}
+#home_link a{
+	position : absolute;
+	top : 3px;
+	left : 20px;
+	border : none;
+	display : block;
+	width : 670px;
+	height : 75px;
+	text-decoration : none;
+	color : rgb(133,17,13);
+	font-size : 0px;
+	}
+#home_link  a:link{
+	border : 0px;
+	text-decoration : none;
+}
+#home_link  a:visited{
+	border : 0px;
+	text-decoration : none;
+}
+#home_link  a:hover{
+	border : 0px;
+	text-decoration : none;
+}
+#home_link a:active{
+	border : 0px solid black;
+	text-decoration : none;
+}
+#links{
+	padding : 5px 0px;
+	font-size : 12px;
+	position : absolute;
+	left : 745px;
+	top : 15px;
+	padding-left : 18px;		color : #fff;
+}
+#links ul{
+	margin: 5px;
+	padding : 10px
+}
+#links a{
+	text-decoration : none;
+	font-family : Helvetica, Arial, Tahoma, sans-serif;	font-weight : bold;	color : #fff;
+}
+#links li {
+	list-style : none;
+	display : inline;
+position : absolute;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#container{
+	font : 14px Arial Tahoma sans-serif;
+	width : 960px;
+	margin : 0px auto;
+	background : #fff;
+}
+#container_upper{
+	font : 14px Arial Tahoma sans-serif;
+	width : 100%;
+	margin : 0px;
+	padding : 0px;
+	padding-top :0px;
+}
+
+#top_body{
+	margin : 0px auto;
+	position : relative;
+	width : 960px;
+	height : 248px;
+	font-family : Helvetica, Arial, sans-serif;
+}
+#top_body img{
+	margin : 0px;}
+#navBar{	
+margin-left : 0px;
+position : absolute;	
+top : 0px;	left : 0px;	
+background : url('images/bg_nav.html') top left repeat-x;
+z-index : 10;
+}
+#navBar ul {	margin: 0px 0px 0px 0px;	padding: 0px;	display: inline;	list-style-type: none;}#navBar li {	margin: 0px;	padding: 0px;	float: left;		width : 160px;}#navBar a {	display : block;	width : 160px;	text-decoration : none;	padding : 0px;	line-height : 30px;	text-align : center;	height : 32px;	color : #fff;	float : left;}#navBar a:hover {	background : url(images/bg_nav_hover.html);}
+.dropDown{	background : #000; background: rgba(0,0,0,.80) ;	width : 158px;	border : 1px solid #262626;	}
+.dropDown:hover{	width : 158px;	border : 1px solid #262626;}	
+#body_main{
+	font-family : Helvetica, Arial, Tahoma, sans-serif;
+	font-size : 12px;
+}
+#right_bar{
+	width : 245px;						/* This is inherited by most of the pages but specific changes are there in the other stylesheets*/
+	float : right;
+	padding : 0px;
+	margin : 0px;
+	margin-left : 0px;
+	border-left : 1px dotted grey;
+}	
+#cl{
+	width : 960px;
+	height :0px;
+	font-size : 0px;
+	clear : both;
+}
+#footer{
+	position : relative;
+	width : 100%;
+	height : 60px;
+	margin : 0px auto 0px auto;
+	clear : both;
+	background : url(images/footer.html) repeat-x;
+}
+#copyright {
+	margin: 0px;
+	padding: 15px;
+	color: #444;
+	font: 10px "Century Gothic", Courier, monospace;
+	text-align : center;
+}
+.para{
+	margin: 5px;
+	padding : 10px;
+	border-top : 1px dotted #999;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.col_heading{
+	color : rgb(9,65,2);
+	font-family : "Palatino", "Palatino Linotype", Georgia, sans-serif;
+	font-size : 16px;
+	line-height : 1.5em;
+	padding : 5px 0px;
+	padding-bottom : 2px;
+	margin : 0px;
+	font-weight : normal;
+	}
+
+#col_heading a{
+	color : rgb(9,65,2);	
+	}
+#col_heading a:link{
+	color : rgb(9,65,2);	
+	}
+#col_heading a:visited{
+	color : rgb(9,65,2);	
+	}
+#col_heading a:hover{
+	color : rgb(9,65,2);	
+	}
+#col_heading a:active{
+	color : rgb(9,65,2);	
+	}
+	
+p {
+	margin: 5px 0px 0px 0px;
+	padding : 0px 5px;
+	}
+#left_bar .top_p,#right_bar.top_p,#left_column .top_p{
+	border-top : none;
+}
+#center_column .top_p{
+	border-top : none;
+}
+h1 {
+	margin: 0px 0px 5px 5px;
+	padding: 0px 10px;
+	font-size: 20px;
+	color: #111;
+	width: 100%;
+}
+
+h2 {
+	margin: 0px 0px 5px 5px;
+	padding: 0px 10px;
+	font-size: 18px;
+	color: #111;
+}
+
+h3, h4, h5, h6 {
+	margin: 0px 0px 5px 5px;
+	padding: 0px 10px;
+	font-size: 16px;
+	color: #111;
+}
+
+img {
+	display: block;
+	margin: 7px;
+	padding: 0px;
+	width:100%;
+}
+
+a {
+	color: #3656b0;
+	text-decoration: none;
+	border : none;
+}
+
+a:hover {
+	color: #6a88dc;
+	border : none;
+	text-decoration : none;
+}
+/* ICONS FOR DOWNLOADABLE DOCUMENTS*/ 
+.pdf{
+	padding-left : 22px;
+	background : url(images/pdf.html) left center no-repeat;
+}
+.doc{
+	padding-left : 22px;
+	background : url(images/doc.html) left center no-repeat;
+}
+.new{
+	padding-right : 35px;
+	background : url(images/new.html) right center no-repeat;
+}
+/* STANDARD BOXES*/
+.ds_box{
+	padding : 10px;
+	border : 1px solid #ccc;
+}
+.ds_box_outer{
+	border : 1px solid #eee;
+	margin : 15px;
+}
